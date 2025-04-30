@@ -24,6 +24,7 @@ M.support_filetypes = {
 M.exclude_filetypes = {
     aerial = true,
     dashboard = true,
+    snacks_dashboard = true,
     help = true,
     lspinfo = true,
     lspsagafinder = true,
