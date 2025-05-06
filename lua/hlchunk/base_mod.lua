@@ -51,7 +51,7 @@ local BaseMod = {
 function BaseMod:new(o)
     o = o or {}
     o.augroup_name = o.augroup_name or ("hl_" .. o.name .. "_augroup")
-    o.hl_base_name = o.hl_base_name or ("HL" .. o.name:firstToUpper())
+    o.hl_base_name = o.hl_base_name or ("HL" .. o.name)
     self.__index = self
     setmetatable(o, self)
     return o
